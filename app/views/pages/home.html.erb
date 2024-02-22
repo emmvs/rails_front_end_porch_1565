@@ -1,0 +1,36 @@
+<div class="banner">
+  <h1>Welcome home! <i class="fa-solid fa-hippo"></i></h1>
+</div>
+
+<h3>Image 1 (loaded in SCSS)</h3>
+<div class="logo">
+</div>
+
+<h3>Image 2 (loaded in HTML)</h3>
+<%= image_tag "sloth.png", alt: "Cute Sloth", width: 200 %>
+
+<%= link_to "Do your flashcards!!!", root_path , class: "btn btn-magic" %>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Coding is amazing!!!!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Bye!!</button>
+        <button type="button" class="btn btn-primary">Nothing to see here</button>
+      </div>
+    </div>
+  </div>
+</div>

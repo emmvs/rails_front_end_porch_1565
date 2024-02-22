@@ -1,0 +1,7 @@
+.logo {
+  //      Rails helper 👇
+  background-image: asset-url("sloth.png");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
